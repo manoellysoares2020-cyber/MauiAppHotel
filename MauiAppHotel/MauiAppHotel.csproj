@@ -61,4 +61,25 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0-rc.1.25451.107" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Views\ContratacaoDaHospedagem.xaml.cs">
+	    <DependentUpon>ContratacaoDaHospedagem.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\ContratacaoDaHospedagem.xaml.cs">
+	    <DependentUpon>ContratacaoDaHospedagem.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\ContratacaoDaHospedagem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\HospedagemContrada.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Sobre.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

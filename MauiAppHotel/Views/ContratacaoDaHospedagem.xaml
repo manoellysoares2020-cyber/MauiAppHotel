@@ -8,14 +8,14 @@
 
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
-     
+
         <Label 
             Text="Cálculo da Diária"
             FontFamily="BricolageGrotesque"
             FontSize="36"
             FontAttributes="Bold"
             TextColor="DarkBlue"/>
-        
+
         <Frame Padding="10">
             <VerticalStackLayout>
                 <Grid RowDefinitions="auto, auto"
@@ -53,7 +53,8 @@
                 <Label Text="Escolha sua Suíte"/>
 
                 <Picker x:Name="pck_quarto"
-                        Title="Selecione sua Acomodação"/>
+                        Title="Selecione sua Acomodação"
+                        ItemDisplayBinding="{Binding Descricao}"/>
 
                 <Frame Padding="10"
                        Margin="10">
@@ -73,7 +74,7 @@
                     </VerticalStackLayout>
 
                 </Frame>
-                <!-- Botão com evento de navegação -->
+
                 <Button Text="Avançar"
                         x:Name="btnAvancar"
                         Clicked="btnAvancar_Clicked"/>

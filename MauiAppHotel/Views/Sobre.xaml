@@ -69,14 +69,14 @@
                 </VerticalStackLayout>
             </Border>
 
-
+            
             <Button Text="Voltar"
                     BackgroundColor="DarkBlue"
                     TextColor="White"
                     CornerRadius="10"
                     WidthRequest="150"
                     HorizontalOptions="Center"
-                    Clicked="Voltar_Clicked"/>
+                    Clicked="Voltar2_Clicked"/>
         </VerticalStackLayout>
     </Grid>
 </ContentPage>
